@@ -1,0 +1,37 @@
+#resumo2{
+    display: none;
+}
+
+#div2{
+    display: none;
+}
+header{
+    min-height: 70vh;
+    background-image: url(https://picsum.photos/1800/900);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+@media screen and (max-width:767px) {
+    #resumo{
+        display: none;
+    }
+
+    #resumo2{
+        display: block;
+    }
+
+    #div1{
+        display: none;
+    }
+
+    #div2{
+        display: block;
+    }
+}
